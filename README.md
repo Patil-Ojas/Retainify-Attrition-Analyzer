@@ -12,7 +12,7 @@ Existing after-school tuition classes lack adaptability and struggle with access
 -> Also up-to-date with the latest AI advancements by Samsung, perfect for when you need a quick break :)
 
 
-## :tv: Demo
+## :tv: Demo ([Youtube](https://youtu.be/UMDKsu72CrE))
 
 <!--
 [![image](https://github.com/Patil-Ojas/Retainify-Attrition-Analyzer/assets/128805590/4b6d9f7b-d2f6-45b7-8dc0-5a2adb3865c1)
@@ -23,21 +23,13 @@ Existing after-school tuition classes lack adaptability and struggle with access
 </a>
 
 
-## :hourglass_flowing_sand: Workflow 
-![image](https://github.com/Patil-Ojas/Surgical-Tool-Detector/assets/128805590/879e4051-bb38-4cba-b3c5-10058dc544ca)
+## :hourglass_flowing_sand: How to run TutoriAI? 
 
-## :open_file_folder: Dataset
-The training dataset is made up of 16 robotic procedures. The original video data was recorded at 60 Hz and to reduce labelling cost they have been subsampled to 2 Hz. Sequences with little or no motion are manually removed to leave 149 frames per procedure. Video frames are 1280x1024 for which labeling is provided.  
+ - TutoriAI has been developed for 2 environments, 3D and VR.
+ - First, clone the repo.
+ - Using Unity open the scene named "Tutoriai".
+ - The 3D model has been tried and tested, however we were unable to test the VR model, due to unavailability of HMD consoles. Rest assured, we left no stone unturned in the VR development.
 
-The classes found in the training and test are:  
- - Instrument   
- - Drop in Ultrasound Probe  
- - Suturing Needles  
- - Suturing thread  
- - Clips/clamps  
- - Background tissue  
-  
-Each class will have a distinct numerical label in a ground truth image. A supplied json file will contain the class name to numerical label mapping.
 
 <!--
 ## :warning: Framework & TechStack used
